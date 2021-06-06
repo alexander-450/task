@@ -1,0 +1,189 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background:url("../images/showcase1.jpg");
+    line-height: 1.5;
+    color:black;
+}
+/* LINK */
+
+#header .top a:hover{
+    color:#00B8A9;
+}
+#header .last a:hover{
+    color:#E84545;
+}
+
+.container4 a:hover{
+    color:#00B8A9;
+}
+
+
+
+/* HEADER */
+
+#header{
+    border-left: #E84545 7px solid;
+    border-right: #E84545 7px solid;
+    border-bottom:7px solid #E84545;
+    padding: 20px;
+    background: #2B2E4A;
+    color:#fff;
+    padding-top: 10px;
+  
+
+}
+
+#header .top ul{
+   
+    padding: 20px
+
+}
+
+#header .top a{
+    
+    padding-bottom: 10px;
+    text-decoration: none;
+    color: #E84545;
+
+}
+
+#header .top li{
+    list-style-type: none;
+    color: #00B8A9;
+    float: left;
+
+}
+
+#header .top .last{
+    float: right;
+    list-style-type: none;
+    color:#00B8A9
+
+}
+
+/* SECTION */
+section{
+    margin-top: 20%;
+    margin: 100px;
+    text-align: center;
+}
+
+/* FORM */
+form span{
+    color:#00B8A9
+}
+form{
+
+    border:solid 2px;
+    border-radius: 3%;
+    width: 50%;
+    margin: 20%;
+    padding: 10px;
+    color:#E84545;
+
+   
+}
+
+form input{
+
+    width: 40%;
+    padding: 8px;
+}
+
+input#checkbox{
+    width: 5%;
+    padding: 9px;
+    color: black;
+}
+
+form #reg{
+    
+    font-size: 40px;
+    color:red;
+    font-family: Tohoma;
+    padding-bottom: 13px;
+    padding-top: 7px;
+}
+
+form #container input{
+    border: 3px solid #00B8A9;
+}
+
+
+.container2 label{
+    font-size: 20px;
+    
+    
+}
+
+.container3{
+    font: bold;
+    font-size: 20px;
+}
+
+.container4 a{
+    font: bold;
+    color:#fff
+}
+
+.container4{
+    font-size: 20px;
+    color:#E84545;
+
+}
+
+
+/* REGISTER NOW*/
+form #rer{
+    color:#E84545;
+   
+
+}
+form #rer:hover{
+    background: #00B8A9;
+    
+
+}
+
+
+/* FOOTER */
+
+footer{
+    text-align: center;
+    color: #E84545;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: #2B2E4A;
+    border-bottom: #E84545 7px solid;
+}
+
+@media(max-width:780px) {
+    form{
+        border-radius: 8px;
+        float: none;
+        text-align: center;
+        width: 75%;
+
+        
+    }
+
+    form #rer{
+        padding: 8px;
+        width: 130px;
+        color:green
+    }
+
+    form input{
+        width: 130px;
+    }
+
+    body{
+        background:url("../images/showcase1.jpg") no-repeat;
+    }
+}
+
+
